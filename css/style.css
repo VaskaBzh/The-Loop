@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F9F6F1;
+}
+
+.container {
+    max-width: 1120px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img {
+    max-width: 201px;
+}
+
+.header {
+    padding-top: 56px;
+    padding-bottom: 33px;
+}
+
+.logo_block {
+    max-width: 918px;
+    width: 100%;
+}
+
+.header_nav {
+    position: relative;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.header_nav::after {
+    position: absolute;
+    content: "•";
+    top: 2px;
+    right: -10px;
+    width: 5px;
+    height: 5px;
+    color: #212121;
+}
+
+.cart_img {
+    max-width: 30px;
+    width: 100%;
+}
+
+.group_img {
+    max-width: 45px;
+    width: 100%;;
+}
+
+.footer_imgs {
+    max-width: 91px;
+    width: 100%;;
+}
+
+.nav1 {
+    max-width: 373px;
+    width: 100%;
+}
+
+.nav2 {
+    max-width: 163px;
+    width: 100%;
+}
+
+.header_nav2 {
+    position: relative;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.section_promo {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.winter_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_winter {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}
+
+.h1_winter {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    margin-top: 35px;
+    margin-bottom: 55px;    
+}
+
+.button {
+    background: #D7B399;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button_promo {
+    max-width: 240px;
+    padding: 17px 30px 18px 29px;
+}
+
+.promo_block {
+    max-width: 556px;
+    width: 100%;
+    min-height: 377px;
+    background-image: url(../img/running_shoes_PNG5823.png);
+}
+
+.h3_promo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;    
+    margin-bottom: 14px;
+}
+
+.h2_promo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #D84033;
+}
