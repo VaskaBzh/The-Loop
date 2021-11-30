@@ -171,3 +171,184 @@ body {
     text-transform: uppercase;
     color: #D84033;
 }
+
+.nav_block {
+    max-width: 205px;
+    width: 100%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.holder {
+    max-width: 40px;
+    width: 100%;
+    min-height: 7px;
+    background: #CECECE;
+}
+
+.holder:nth-child(2) {
+    background: #D7B399;
+}
+
+.section_free {
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 69px;
+}
+
+.h1_free {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.h2_free {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h1_free::after {
+    content: " ОТ 3000₽";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.section_genders {
+    background: #F4F4F4;
+}
+
+.block_genders {
+    max-width: 550px;
+    width: 100%;
+    padding-top: 61px;
+    padding-bottom: 58px;
+    background: url(../img/Rectangle\ 3.png) no-repeat left 350px bottom;
+}
+
+.h2_genders {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+}
+
+.p_genders {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.button_genders {
+    padding: 15px 30px;
+    background: #D7B399 url(../img/Arrow.png) no-repeat center;
+}
+
+.block_genders:nth-child(2n) {
+    background: url(../img/Rectangle\ 3.1.png) no-repeat left 350px bottom;
+}
+
+.h2_genders::after {
+    content: " КОЛЛЕКЦИЯ";
+    font-style: normal;
+    font-weight: 500;
+}
+
+.section_dress {
+    background-color: #fff;
+}
+
+.block_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_dress {
+    max-width: 277px;
+    width: 100%;
+    min-height: 236px;
+    background: url(../img/Rectangle.png) no-repeat center;
+    position: relative;
+}
+
+.a_dress {
+    position: absolute;
+    left: 30px;
+    bottom: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.section_model {
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.h1_model {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.block_model {
+    border: 3px solid linear-gradient(-45deg, transparent 15px, #58a 0) right, linear-gradient(45deg, transparent 15px, #655 0) left;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 103px;
+    margin-bottom: 103px;
+    padding-top: 22px;
+    max-width: 255px;
+    width: 100%;
+}
+
+.p_model {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.a_price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D7B399;
+    text-decoration: none;
+}
