@@ -22,6 +22,7 @@ body {
 
 .logo_img {
     max-width: 201px;
+    width: 100%;
 }
 
 .header {
@@ -133,6 +134,7 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .button_promo {
@@ -319,8 +321,7 @@ body {
 }
 
 .block_model {
-    border: 3px solid linear-gradient(-45deg, transparent 15px, #58a 0) right, linear-gradient(45deg, transparent 15px, #655 0) left;
-    border-style: ridge;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -329,9 +330,18 @@ body {
     padding-top: 22px;
     max-width: 255px;
     width: 100%;
+    min-height: 350px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.img_model {
+    max-width: 205px;
+    width: 100%;
 }
 
 .p_model {
+    max-width: 112px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -352,3 +362,197 @@ body {
     color: #D7B399;
     text-decoration: none;
 }
+
+.border_el {
+    position: absolute;
+    max-width: 25px;
+    min-height: 25px;
+    width: 100%;
+    border: 3px solid #D7B399;
+    
+}
+
+.border_el:nth-child(1) {
+    border-right: none;
+    border-bottom: none;
+    top: -3px;
+    left: -3px;
+}
+
+.border_el:nth-child(2) {
+    border-left: none;
+    border-bottom: none;
+    top: -3px;
+    right: -3px;
+}
+
+.border_el:nth-child(3) {
+    border-right: none;
+    border-top: none;
+    bottom: -3px;
+    left: -3px;
+}
+
+.border_el:nth-child(4) {
+    border-left: none;
+    border-top: none;
+    bottom: -3px;
+    right: -3px;
+}
+
+.button_model {
+    padding: 18px 64px 17px 35px;
+   background: #D7B399 url(../img/Arrow.png) no-repeat center right 27px;
+}
+
+.block_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_present {
+    background: #212121;
+    padding-top: 72px;
+    padding-bottom: 71px;
+}
+
+.h1_present {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.input_email {
+    max-width: 235px;
+    padding-left: 20px;
+    width: 100%;
+    min-height: 40px;
+    background: #F9F6F1;
+    border: none;
+    outline: none;
+}
+
+.input_email::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #8D8D8D;    
+}
+
+.button_present {
+    padding: 12px 13px 11px 14px
+}
+
+.footer {
+    background: #212121;
+    padding-bottom: 78px;
+    padding-top: 79px;
+}
+
+.block_footer {
+    min-height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.p_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    max-width: 201px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.footer_blocks {
+    max-width: 692px;
+    width: 100%;
+}
+
+.p_end {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.a_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+
+.img_end {
+    padding-left: 20px;
+}
+
+.img_end:nth-child(1)::before {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    content: url(../img/wk.png);
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.img_end:nth-child(2)::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(../img/inst.png);
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.img_end:nth-child(3)::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(../img/face.png);
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.section_end {
+    padding-top: 30px;
+    padding-bottom: 23px;
+    background: #fff;
+}
+
+.p_end {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
+
