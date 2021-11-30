@@ -49,8 +49,8 @@ body {
 
 .header_nav::after {
     position: absolute;
-    content: "•";
-    top: 2px;
+    content: url(../img/Polygon.png);
+    top: -2px;
     right: -10px;
     width: 5px;
     height: 5px;
