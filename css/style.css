@@ -45,6 +45,11 @@ body {
     line-height: 17px;
     letter-spacing: 0.03em;
     color: #212121;
+    transition: all 300ms;
+}
+
+.header_nav:hover {
+    color: #D7B399;
 }
 
 .header_nav::after {
@@ -60,11 +65,21 @@ body {
 .cart_img {
     max-width: 30px;
     width: 100%;
+    transition: all 500ms;
+}
+
+.cart_img:hover {
+    transform: scale(1.1);
 }
 
 .group_img {
     max-width: 45px;
     width: 100%;;
+    transition: all 500ms;
+}
+
+.group_img:hover {
+    transform: scale(1.1);
 }
 
 .footer_imgs {
@@ -91,7 +106,11 @@ body {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #212121;transition: all 300ms;
+}
+
+.header_nav2:hover {
+    color: #D7B399;
 }
 
 .section_promo {
@@ -135,6 +154,11 @@ body {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    transition: all 400ms;
+}
+
+.button:hover {
+    transform: scale(1.1) translateX(10px);
 }
 
 .button_promo {
@@ -235,7 +259,7 @@ body {
     width: 100%;
     padding-top: 61px;
     padding-bottom: 58px;
-    background: url(../img/Rectangle\ 3.png) no-repeat left 350px bottom;
+    background: url(../img/Rectangle\ 3.png) no-repeat right bottom;
 }
 
 .h2_genders {
@@ -263,7 +287,7 @@ body {
 }
 
 .block_genders:nth-child(2n) {
-    background: url(../img/Rectangle\ 3.1.png) no-repeat left 350px bottom;
+    background: url(../img/Rectangle\ 3.1.png) no-repeat right bottom;
 }
 
 .h2_genders::after {
@@ -282,8 +306,7 @@ body {
 }
 
 .block_dress {
-    max-width: 277px;
-    width: 100%;
+    width: 25%;
     min-height: 236px;
     background: url(../img/Rectangle.png) no-repeat center;
     position: relative;
@@ -300,6 +323,7 @@ body {
     line-height: 26px;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: #212121;
 }
 
 .section_model {
@@ -328,8 +352,7 @@ body {
     margin-top: 103px;
     margin-bottom: 103px;
     padding-top: 22px;
-    max-width: 255px;
-    width: 100%;
+    width: 23%;
     min-height: 350px;
     background-color: #fff;
     z-index: 999;
@@ -361,6 +384,11 @@ body {
     text-align: center;
     color: #D7B399;
     text-decoration: none;
+    transition: all 400ms;
+}
+
+.a_price:hover {
+    transform: scale(1.1);
 }
 
 .border_el {
@@ -402,7 +430,12 @@ body {
 
 .button_model {
     padding: 18px 64px 17px 35px;
-   background: #D7B399 url(../img/Arrow.png) no-repeat center right 27px;
+    background: #D7B399 url(../img/Arrow.png) no-repeat center right 27px;
+    transition: all 400ms;
+}
+
+.button_model:hover {
+    transform: scale(1.1);
 }
 
 .block_column {
@@ -449,7 +482,12 @@ body {
 }
 
 .button_present {
-    padding: 12px 13px 11px 14px
+    padding: 12px 13px 11px 14px;
+    transition: all 400ms;
+}
+
+.button_present:hover {
+    transform: scale(1.1) translateX(-10px);
 }
 
 .footer {
@@ -490,8 +528,8 @@ body {
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
-    color: #FFFFFF;
     margin-bottom: 20px;
+    color: #CBCFD4;
 }
 
 .a_footer {
@@ -504,7 +542,11 @@ body {
     text-decoration: none;
     margin-bottom: 10px;
     position: relative;
+    transition: all 300ms;
+}
 
+.a_footer:hover {
+    color: #D7B399;
 }
 
 .img_end {
@@ -519,6 +561,11 @@ body {
     max-width: 24px;
     width: 100%;
     min-height: 24px;
+    transition: all 500ms;
+}
+
+.img_end:nth-child(1):hover::before {
+    transform: scale(1.3);
 }
 
 .img_end:nth-child(2)::before {
@@ -529,6 +576,11 @@ body {
     max-width: 24px;
     width: 100%;
     min-height: 24px;
+    transition: all 500ms;
+}
+
+.img_end:nth-child(2):hover::before {
+    transform: scale(1.3);
 }
 
 .img_end:nth-child(3)::before {
@@ -539,6 +591,11 @@ body {
     max-width: 24px;
     width: 100%;
     min-height: 24px;
+    transition: all 500ms;
+}
+
+.img_end:nth-child(3):hover::before {
+    transform: scale(1.3);
 }
 
 .section_end {
@@ -547,12 +604,200 @@ body {
     background: #fff;
 }
 
-.p_end {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    color: #212121;
+@media (max-width: 1024px) {
+
+.container {
+    width: 95%;
 }
 
+.input_email {
+    margin-right: 10px;
+}
+
+.logo_block {
+    max-width: 85%;
+}
+}
+
+@media (max-width: 768px) {
+
+.logo_img {
+    display: none;
+}
+
+.logo_block {
+    width: 85%;
+}
+
+.promo_block {
+    background: none;
+}
+
+.winter_collapse {
+    background: url(../img/running_shoes_PNG5823.png) no-repeat right bottom;
+}
+
+.p_footer {
+    display: none;
+}
+
+.adapt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_email {
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+.button_present {
+    width: 100%;
+}
+}
+
+@media (max-width: 425px) {
+
+.block_model {
+    max-width: 277px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block_genders {
+    background: none;
+}
+
+.block_genders:nth-child(2) {
+    background: none;
+}
+
+.a_dress {
+    left: 5px;
+}
+
+.footer_blocks {
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer_blocks {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.winter_collapse {
+    background: none;
+}
+
+.logo_block {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav1 {
+    margin-bottom: 10px;
+}
+
+.final {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_imgs {
+    margin-top: 5px;
+}
+
+.nav2 {
+    max-width: 40%;
+}
+
+.section_promo {
+    padding-top: 0;
+}
+
+.nav_block {
+    display: none;
+}
+
+.h2_promo {
+    font-size: 34px;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.links {
+    flex-direction: column;
+    align-items: flex-end;
+}
+}
+
+@media (max-width: 375px) {
+
+.column {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.input_email {
+    margin-top: 10px;
+}
+
+.h3_promo {
+    font-size: 95%;
+}
+
+.h2_promo {
+    font-size: 22px;
+}
+
+
+
+.nav2 {
+    max-width: 45%;
+}
+}
+
+@media (max-width: 320px) {
+
+.promo_block {
+    display: none;
+}
+
+.nav1 {
+    width: 113%;
+}
+
+.header_nav {
+    font-size: 80%;
+}
+
+.block_genders:nth-child(1) {
+    margin-right: 5px;
+}
+
+.h2_genders {
+    font-size: 21px;
+}
+
+.a_dress {
+    font-size: 19px;
+    left: 3%;
+}
+
+.block_dress {
+    background: url(../img/Rectangle.png) no-repeat bottom right -120px;
+}
+
+.nav2 {
+    max-width: 55%;
+}
+}
